@@ -11,5 +11,8 @@ import { Widget2Component } from './widget2/widget2.component';
   imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
+  entryComponents:[
+    Widget1Component, Widget2Component    
+    ]
 })
 export class AppModule {}
